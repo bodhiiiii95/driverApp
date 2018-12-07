@@ -1,0 +1,43 @@
+{
+  "name": "driver",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.1.2",
+    "js-md5": "^0.7.3",
+    "native-base": "^2.8.0",
+    "react": "16.4.1",
+    "react-native": "^0.55.4",
+    "react-native-background-job": "^2.2.0",
+    "react-native-datepicker": "^1.7.2",
+    "react-native-document-picker": "^2.2.0",
+    "react-native-google-places": "^2.5.2",
+    "react-native-image-picker": "^0.27.1",
+    "react-native-maps": "^0.21.0",
+    "react-native-md5": "^1.0.0",
+    "react-native-sha256": "^1.1.1",
+    "react-native-switch": "^1.5.0",
+    "react-navigation": "^2.12.1",
+    "react-number-format": "^4.0.4",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0",
+    "rn-fetch-blob": "^0.10.13",
+    "rn-sliding-button": "^1.1.5",
+    "schedule": "^0.4.0"
+  },
+  "devDependencies": {
+    "babel-jest": "23.4.2",
+    "babel-preset-react-native": "^2.1.0",
+    "jest": "23.5.0",
+    "react-test-renderer": "16.4.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
